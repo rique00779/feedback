@@ -100,8 +100,9 @@ cursor: pointer;
 
 }
 
-.card > button {
+.card > a{
 padding: 13px;
+display: block;
 width: 100%;
 background-color: var(--orange);
 border: none;
@@ -111,10 +112,13 @@ font-size: 15px;
 font-weight: 780;
 letter-spacing: 2px;
 color: var(--white);
+text-align:center ;
+text-decoration: none;
+
 transition:  all ease-in-out 0.3s;
 }
 
-.card > button:hover {
+.card > a:hover {
     background-color: var(--white);
     cursor: pointer;
     color:var(--orange)
